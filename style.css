@@ -117,6 +117,12 @@ body {
     text-align: right;
 }
 
+.services li{
+    border: solid 1px white;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
 .footer-distributed{
     border-radius: 25px;
 }
