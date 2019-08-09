@@ -80,17 +80,8 @@ body {
     vertical-align: middle;
     border:solid red;
     border-radius: 25px;
+    margin: 10px;
 }
-
-.hours{
-    color: white;
-    background-color: black;
-}
-
-.hours h1{
-    text-align: center;
-}
-
 
 .list-group-item{
     color: white;
@@ -128,36 +119,9 @@ body {
     border-bottom:solid 1px white;
 }
 
-.footer-distributed{
+.thumbnail img{
+    border:solid white;
     border-radius: 25px;
-}
-
-.footer-left{
-    background-color: black;
-}
-
-.footer-center{
-    background-color: black;
-}
-
-.footer-right{
-    background-color: black;
-}
-
-.footer-icons li{
-    list-style-type: none;
-    text-align: ;
-}
-
-.hours-footer{
-    color: white;
-    text-align: left;
-}
-
-.hours-footer ul{
-    font:15px sans-serif;
-    list-style-type: none;
-}
-.hours-footer li{
-    border: none;
+    margin: 5px;
+    
 }
