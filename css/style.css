@@ -115,8 +115,6 @@ body {
 }
 
 .services li{
-    border: solid 1px white;
-    border-radius: 25px;
     margin: 10px;
 }
 
