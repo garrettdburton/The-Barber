@@ -37,7 +37,7 @@ body {
 
 /* Hero Image */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero-image.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero-image.jpeg");
     height: 100%;
     width: 100%;
     background-position: center;
