@@ -8,24 +8,28 @@ body {
     border-radius: 25px;
     height:300px;
     border:solid red;
+    
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    color: white;
+    background-color: #ddd;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     font: bold 16px sans-serif;
     line-height: 65px;
     border-radius: 25px;
+    border: solid red;
 
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: red;
+    border: solid black;
+    color: white;
     height: 15px;
     width: 12px;
     border-radius: 25px;
