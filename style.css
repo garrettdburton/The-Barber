@@ -99,6 +99,7 @@ body {
 .services{
     color: white;
     margin:5px;
+    
 }
 
 .services ul{
@@ -107,6 +108,8 @@ body {
     text-align: left;
     margin-right: 5%;
     padding: 10px;
+    border:solid red;
+    border-radius: 25px;
 }
 .services p{
     font: bold 14px sans-serif;
