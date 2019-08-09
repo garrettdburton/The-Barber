@@ -7,8 +7,7 @@ body {
     background-color: black;
     border-radius: 25px;
     height:300px;
-    border:solid red;
-    
+    border:solid red; 
 }
 
 /* Style the links inside the navigation bar */
@@ -22,7 +21,6 @@ body {
     line-height: 65px;
     border-radius: 25px;
     border: solid red;
-
 }
 
 /* Change the color of links on hover */
@@ -62,6 +60,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    margin: 5px;
 }
 
 .container-fluid{
