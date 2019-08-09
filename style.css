@@ -78,7 +78,8 @@ body {
 
 .avatar {
     vertical-align: middle;
-    border-radius: 25%;
+    border:solid red;
+    border-radius: 25px;
 }
 
 .hours{
