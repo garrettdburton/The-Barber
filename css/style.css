@@ -88,11 +88,11 @@ body {
     border:solid red;
     border-radius: 25px;
     margin: 10px;
-    width: 25%
+    width: 55%
 }
 
 .card-body p{
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
