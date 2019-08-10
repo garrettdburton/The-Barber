@@ -18,13 +18,8 @@ body {
     text-align: center;
     padding: 5px 16px;
     font: bold 16px sans-serif;
-    line-height: 20px;
     border-radius: 25px;
     text-align: center;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 /* Change the color of links on hover */
@@ -135,7 +130,6 @@ body {
     border:solid white;
     border-radius: 25px;
     margin: 5px;
-
 }
 
 .icons{
