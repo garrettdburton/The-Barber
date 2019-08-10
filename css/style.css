@@ -6,7 +6,7 @@ body {
 .topnav {
     background-color: black;
     border-radius: 25px;
-    height:300px;
+    height:400px;
     border:solid red; 
 }
 
@@ -23,6 +23,7 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 /* Change the color of links on hover */
@@ -38,11 +39,12 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 /* Hero Image */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image(alt).jpeg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -68,6 +70,10 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     margin: 5px;
+}
+
+.hero-text h1{
+    font-size: 50px;
 }
 
 .container-fluid{
@@ -97,6 +103,8 @@ body {
 .services{
     color: white;
     margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .services ul{
@@ -127,4 +135,9 @@ body {
     border-radius: 25px;
     margin: 5px;
 
+}
+
+.icons{
+    text-align: center;
+    
 }
