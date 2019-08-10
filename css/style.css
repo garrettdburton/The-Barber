@@ -134,5 +134,8 @@ body {
 
 .icons{
     text-align: center;
-    
+}
+
+.icons a {
+    margin: 10px;
 }
