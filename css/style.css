@@ -5,7 +5,6 @@ body {
 /* Navbar */
 header{
     background-color: black;
-    border-radius: 25px;
     height:400px;
     width: 100%;
     border:solid red;
@@ -40,7 +39,6 @@ header a:hover {
 
 header video {
     position: absolute;
-    border-radius: 25px;
     top: 50%;
     left: 50%;
     min-width: 100%;
