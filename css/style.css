@@ -44,6 +44,8 @@ header {
 
 header video {
     position: absolute;
+    border-radius: 25px;
+     border:solid red; 
     top: 50%;
     left: 50%;
     min-width: 100%;
