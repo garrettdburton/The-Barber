@@ -3,7 +3,7 @@ body {
 }
 
 /* Navbar */
-.topnav {
+header{
     background-color: black;
     border-radius: 25px;
     height:400px;
@@ -11,7 +11,7 @@ body {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+header a {
     background-color: #ddd;
     border: solid red;
     color: black;
@@ -23,7 +23,7 @@ body {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+header a:hover {
     background-color: red;
     border: solid black;
     color: white;
@@ -35,7 +35,54 @@ body {
     text-align: center;
 }
 
-/* Hero Image */
+header {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}
+
+/* Hero Image
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpeg");
     height: 100%;
@@ -50,7 +97,7 @@ body {
     margin-left:95%; 
     font-size:15px;
     color:#fff;
-}
+}*/
 
 /* Hero Text */
 .hero-text {
