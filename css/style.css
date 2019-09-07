@@ -7,7 +7,10 @@ header{
     background-color: black;
     border-radius: 25px;
     height:400px;
+    width: 100%;
     border:solid red;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -33,13 +36,6 @@ header a:hover {
     line-height: 20px;
     border-radius: 25px;
     text-align: center;
-}
-
-header {
-    position: relative;
-    background-color: black;
-    width: 100%;
-    overflow: hidden;
 }
 
 header video {
@@ -74,32 +70,15 @@ header .overlay {
     opacity: 0.5;
     z-index: 1;
 }
-/*
+
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    ;
     }
     header video {
-        display: none;
+      
     }
 }
-
- Hero Image
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpeg");
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-image h5{
-    margin-left:95%; 
-    font-size:15px;
-    color:#fff;
-}*/
 
 /* Hero Text */
 .hero-text {
