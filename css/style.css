@@ -153,6 +153,10 @@ header .overlay {
     border-bottom:solid 1px white;
 }
 
+#carouselExampleControls .carousel-inner {
+    padding: 15px;
+}
+
 #carouselExampleControls .carousel-inner .carousel-item img {
     height: 500px;
     width: 333px;
