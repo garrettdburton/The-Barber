@@ -71,10 +71,10 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-    ;
+        ;
     }
     header video {
-      
+
     }
 }
 
@@ -153,11 +153,12 @@ header .overlay {
     border-bottom:solid 1px white;
 }
 
-/* Icons */
-.thumbnail img{
+#carouselExampleControls .carousel-inner .carousel-item img {
+    height: auto;
+    width: 100%;
     border:solid white;
-    border-radius: 25px;
-    margin: 5px;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .icons{
