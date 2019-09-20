@@ -165,6 +165,26 @@ header .overlay {
     margin: 10px;
 }
 
+.carousel-control-prev-icon,.carousel-control-next-icon  {
+    height: 25px;
+    width: 25px;
+    outline: black;
+    background-size: 80%,80%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content:'>';
+    font-size: 35px;
+    color: black;
+    
+}
+.carousel-control-prev-icon:after {
+    content:'<';
+    font-size: 35px;
+    color: black;
+}
+
 .icons{
     text-align: center;
 }
