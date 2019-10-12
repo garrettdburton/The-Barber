@@ -7,7 +7,6 @@ header{
     background-color: black;
     height:400px;
     width: 100%;
-    border-radius: 25px;
     border:solid red;
     position: relative;
     overflow: hidden;
@@ -40,7 +39,6 @@ header a:hover {
 }
 
 header video {
-    border-radius: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
