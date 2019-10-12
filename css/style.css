@@ -111,11 +111,18 @@ header .overlay {
     background-color: black;
 }
 
+.about .card-title{
+    font-size: 40px;
+}
+
+.about .text{
+    font-size: 20px;
+}
+
 .avatar {
     vertical-align: middle;
     border:solid red;
     border-radius: 25px;
-    margin: 10px;
 }
 
 .card-body p{
