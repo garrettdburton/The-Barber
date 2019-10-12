@@ -106,7 +106,6 @@ header .overlay {
 }
 
 .about{
-    margin:5px;
     background-color: black;
 }
 
@@ -115,7 +114,6 @@ header .overlay {
     border:solid red;
     border-radius: 25px;
     margin: 10px;
-    width: 55%
 }
 
 .card-body p{
