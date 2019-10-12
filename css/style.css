@@ -201,7 +201,9 @@ header .overlay {
 }
 
 .icons a {
-   margin: auto;
+    margin-right: 25px;
+    margin-left: 10px;
+    align-content: center;
 }
 
 #creator{
