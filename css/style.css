@@ -11,6 +11,7 @@ header{
     border:solid red;
     position: relative;
     overflow: hidden;
+    margin: 15px;
 }
 
 /* Style the links inside the navigation bar */
@@ -182,7 +183,7 @@ header .overlay {
     content:'>';
     font-size: 35px;
     color: black;
-    
+
 }
 .carousel-control-prev-icon:after {
     content:'<';
@@ -196,4 +197,27 @@ header .overlay {
 
 .icons a {
     margin: 10px;
+}
+
+#creator{
+    border-radius: 25px;
+    font-size: 12px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon  {
+    height: 25px;
+    width: 25px;
+    outline: black;
+    background-size: 80%,80%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content:'>';
+    font-size: 55px;
+    color: black;
+}
+.carousel-control-prev-icon:after {
+    content:'<';
+    font-size: 55px;
+    color: black;
 }
