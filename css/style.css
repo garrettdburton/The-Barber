@@ -179,7 +179,7 @@ header .overlay {
 .carousel-control-prev-icon,.carousel-control-next-icon  {
     height: 25px;
     width: 25px;
-    outline: black;
+    outline: white;
     background-size: 80%,80%;
     background-image: none;
 }
@@ -187,13 +187,13 @@ header .overlay {
 .carousel-control-next-icon:after {
     content:'>';
     font-size: 35px;
-    color: black;
+    color: white;
 
 }
 .carousel-control-prev-icon:after {
     content:'<';
     font-size: 35px;
-    color: black;
+    color: white;
 }
 
 .icons{
