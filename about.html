@@ -1,200 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>The Barber</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title>The Barber</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-        <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
 
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
-        <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/aos.css" />
 
-        <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css" />
 
-        <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-        <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.timepicker.css" />
 
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <style>
+    html {
+      max-width: 1800px;
+      margin: 0 auto;
+    }
 
-        <link rel="stylesheet" href="css/flaticon.css">
-        <link rel="stylesheet" href="css/icomoon.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <style>
-        html{
-            max-width: 1800px;
-            margin: 0 auto;
-        }
+    div.transbox {
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8 !important;
+    }
 
-        div.transbox {
-            margin: 30px;
-            background-color: #ffffff;
-            border: 1px solid black;
-            opacity: 0.8 !important;
-        }
+    div.transbox p {
+      margin: 5%;
+      font-weight: bold;
+      color: #000000;
+    }
+  </style>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">The Barber</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
 
-        div.transbox p {
-            margin: 5%;
-            font-weight: bold;
-            color: #000000;
-        }
-    </style>
-    <body>
-
-        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">The Barber</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="oi oi-menu"></span> Menu
-                </button>
-
-                <div class="collapse navbar-collapse" id="ftco-nav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- END nav -->
-
-        <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_15.jpeg');" data-stellar-background-ratio="0.5">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-                    <div class="col-md-6 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                        <h1 class="mb-3 mt-5 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">About</h1>
-                        <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
-                    </div>
-                </div>
-            </div>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <!-- END nav -->
 
-        <section class="ftco-section">
-            <div class="container">
-                <div class="row d-flex" style="min-height: 500px;">
-                    <div class="col-md-6 d-flex ftco-animate">
-                        <div class="img img-about align-self-stretch" style="background-image: url(images/bg_5.jpg); width: 100%; height: 700px;"></div>
-                    </div>
-                    <div class="col-md-6 pl-md-5 ftco-animate">
-                        <h2 class="mb-4">Kristine Roccia<br>Owner</h2>
-                        <p>The Barber at BMG is a full service barber shop located at the Monroe County Airport. Owned and operated by Kristine Roccia, whose grandfather was also a barber! While overlooking the runway as planes land and take off, you’ll receive quality services that will have you coming back for more. From hot lather to hot towels, shaves, and bald fades, this truly is a full service barbershop. Her passion is essentially cutting hair, but to her it’s so much more than just a haircut! At any age and any stage of life, her goal is to make you feel comfortable in the chair and more confident as you leave!</p>
-                        <br> 
-                    </div>
-                </div>
+    <div
+      class="hero-wrap js-fullheight"
+      style="background-image: url('images/bg_15.jpeg')"
+      data-stellar-background-ratio="0.5"
+    >
+      <div class="overlay"></div>
+      <div class="container">
+        <div
+          class="row no-gutters slider-text align-items-center justify-content-center"
+          data-scrollax-parent="true"
+        >
+          <div
+            class="col-md-6 text-center ftco-animate"
+            data-scrollax=" properties: { translateY: '70%' }"
+          >
+            <h1
+              class="mb-3 mt-5 bread"
+              data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+            >
+              About
+            </h1>
+            <p
+              class="breadcrumbs"
+              data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+            >
+              <span class="mr-2"><a href="index.html">Home</a></span>
+              <span>About</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row d-flex" style="min-height: 500px">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div
+              class="img img-about align-self-stretch rounded"
+              style="
+                background-image: url(images/bg_5.jpg);
+                width: 100%;
+                height: 700px;
+              "
+            ></div>
+          </div>
+          <div class="col-md-6 pl-md-5 ftco-animate">
+            <h2 class="mb-4">Kristine Roccia<br />Owner</h2>
+            <p>
+              The Barber at BMG is a full service barber shop located at the
+              Monroe County Airport. Owned and operated by Kristine Roccia,
+              whose grandfather was also a barber! While overlooking the runway
+              as planes land and take off, you’ll receive quality services that
+              will have you coming back for more. From hot lather to hot towels,
+              shaves, and bald fades, this truly is a full service barbershop.
+              Her passion is essentially cutting hair, but to her it’s so much
+              more than just a haircut! At any age and any stage of life, her
+              goal is to make you feel comfortable in the chair and more
+              confident as you leave!
+            </p>
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row d-flex" style="min-height: 500px">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div
+              class="img img-about align-self-stretch rounded"
+              style="
+                background-image: url(images/katie.jpg);
+                height: 800px;
+                width: 100%;
+              "
+            ></div>
+          </div>
+          <div class="col-md-6 pl-md-5 ftco-animate">
+            <h2 class="mb-4">Katie Price<br />Barber</h2>
+            <p>
+              I graduated from Indiana Cosmetology Academy in 2016. In 2018, I
+              traded the "salon world" and started specializing in men's hair!
+              Now I’m in the works of going back to school and getting my
+              barber's license. I personally believe that men's hair should be
+              tailored to their lifestyle to create the best style for their
+              everyday life. You have enough on your plate, let your hair be the
+              last thing you worry about! <br />
+              When I'm not cutting hair, I'm either scuba diving, mermaiding,
+              watching anime, playing D&amp;D, or going out and eating amazing
+              food!
+            </p>
+
+            <br />
+
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+              <a
+                href="https://haircut-w-katie.square.site/"
+                class="btn btn-primary px-4 py-3"
+                >Book an Appointment with Katie Price</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row d-flex" style="min-height: 500px">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div
+              class="img img-about align-self-stretch rounded"
+              style="background-image: url(); height: 800px; width: 100%"
+            ></div>
+          </div>
+          <div class="col-md-6 pl-md-5 ftco-animate">
+            <h2 class="mb-4">Katie Pearson<br />Barber</h2>
+            <!-- <p>INSERT BIO</p> -->
+
+            <br />
+
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+              <a
+                href="https://katies-booth.square.site/s/appointments"
+                class="btn btn-primary px-4 py-3"
+                >Book an Appointment with Katie Pearson</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-section img">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p>
+                The Barber at BMG is a full service barber shop located at the
+                Monroe County Airport. Owned and operated by Kristine Roccia.
+              </p>
+              <ul
+                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
+              >
+                <li class="ftco-animate">
+                  <a href="https://www.facebook.com/airportbarber/"
+                    ><span class="icon-facebook"></span
+                  ></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="https://www.instagram.com/kristine_thebarber/"
+                    ><span class="icon-instagram"></span
+                  ></a>
+                </li>
+              </ul>
             </div>
-        </section>
-        <section class="ftco-section">
-            <div class="container">
-                <div class="row d-flex" style="min-height: 500px;">
-                    <div class="col-md-6 d-flex ftco-animate">
-                        <div class="img img-about align-self-stretch" style="background-image: url(images/amber.jpeg); height: 800px; width: 100%;"></div>
-                    </div>
-                    <div class="col-md-6 pl-md-5 ftco-animate">
-                        <h2 class="mb-4">Amber Orman <br>Barber</h2>
-                        <p>I am from Bloomfield, In. I have been cutting hair for 16 years now I am a licensed cosmetologist, specializing in men’s hair! I am excited to start a new chapter in my life and be apart of this shop!</p>
+          </div>
 
-                        <br>
-
-                        <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="https://my-business-108422-109232.square.site/" class="btn btn-primary px-4 py-3">Book an Appointment with Amber</a></p>
-                    </div>
-
-                </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">
+                <a href="/contact.html">Schedule An Appointment</a>
+              </h2>
             </div>
-        </section>
-
-        <section class="ftco-section">
-            <div class="container">
-                <div class="row d-flex" style="min-height: 500px;">
-                    <div class="col-md-6 d-flex ftco-animate">
-                        <div class="img img-about align-self-stretch" style="background-image: url(images/katie.jpg); height: 800px; width: 100%;"></div>
-                    </div>
-                    <div class="col-md-6 pl-md-5 ftco-animate">
-                        <h2 class="mb-4">Katie Price<br>Barber</h2>
-                        <p>I graduated from Indiana Cosmetology Academy in 2016. In 2018, I traded the "salon world" and started specializing in men's hair! Now I’m in the works of going back to school and getting my barber's license. I personally believe that men's hair should be tailored to their lifestyle to create the best style for their everyday life. You have enough on your plate, let your hair be the last thing you worry about! <br>
-                            When I'm not cutting hair, I'm either scuba diving, mermaiding, watching anime, playing D&amp;D, or going out and eating amazing food!
-                        </p>
-
-                        <br>
-
-                          <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="https://haircut-w-katie.square.site/" class="btn btn-primary px-4 py-3">Book an Appointment with Katie</a></p>
-                    </div>
-
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Question?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li>
+                    <span class="icon icon-map-marker"></span
+                    ><span class="text"
+                      ><a
+                        href="https://maps.apple.com/maps?q=972 S. Kirby Rd. Bloomington, Indiana"
+                        >972 S. Kirby Rd. Bloomington, Indiana</a
+                      ></span
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:8123713380"
+                      ><span class="icon icon-phone"></span
+                      ><span class="text">812-371-3380</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-        </section>
-        <footer class="ftco-footer ftco-section img">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-4">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">About</h2>
-                            <p>The Barber at BMG is a full service barber shop located at the Monroe County Airport. Owned and operated by Kristine Roccia.</p>
-                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                                <li class="ftco-animate"><a href="https://www.facebook.com/airportbarber/"><span class="icon-facebook"></span></a></li>
-                                <li class="ftco-animate"><a href="https://www.instagram.com/kristine_thebarber/"><span class="icon-instagram"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All Rights Reserved The Barber<br />Developed by
+              <a href="http://www.unshiftedbitdev.com"
+                >Unshifted Bit Development</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-                    <div class="col-md-4">
-                        <div class="ftco-footer-widget mb-4 ml-md-4">
-                            <h2 class="ftco-heading-2"><a href="/contact.html">Schedule An Appointment</a></h2>   
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Have a Question?</h2>
-                            <div class="block-23 mb-3">
-                                <ul>
-                                    <li><span class="icon icon-map-marker"></span><span class="text"><a href="https://maps.apple.com/maps?q=972 S. Kirby Rd. Bloomington, Indiana">972 S. Kirby Rd. Bloomington, Indiana</a></span></li>
-                                    <li><a href="tel:8123713380"><span class="icon icon-phone"></span><span class="text">812-371-3380</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p>
-                            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved The Barber<br>Developed by <a href="http://www.unshiftedbitdev.com">Unshifted Bit Development</a></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
 
-
-
-        <!-- loader -->
-        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery-migrate-3.0.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing.1.3.js"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/jquery.animateNumber.min.js"></script>
-        <script src="js/bootstrap-datepicker.js"></script>
-        <script src="js/jquery.timepicker.min.js"></script>
-        <script src="js/scrollax.min.js"></script>
-        <script src="js/main.js"></script>
-
-    </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
