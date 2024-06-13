@@ -40,6 +40,19 @@
       max-width: 1800px;
       margin: 0 auto;
     }
+
+    div.transbox {
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8 !important;
+    }
+
+    div.transbox p {
+      margin: 5%;
+      font-weight: bold;
+      color: #000000;
+    }
   </style>
   <body>
     <nav
@@ -65,7 +78,7 @@
             <li class="nav-item">
               <a href="/" class="nav-link">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
@@ -74,7 +87,7 @@
             <li class="nav-item">
               <a href="gallery" class="nav-link">Gallery</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="contact" class="nav-link">Contact</a>
             </li>
             <li class="nav-item my-auto">
@@ -86,79 +99,38 @@
       </div>
     </nav>
     <!-- END nav -->
-
-    <div
-      class="hero-wrap js-fullheight"
-      style="background-image: url('images/bg_18.jpg')"
-      data-stellar-background-ratio="0.5"
-    >
-      <div class="overlay"></div>
+    <section class="ftco-section">
       <div class="container">
-        <div
-          class="row no-gutters slider-text align-items-center justify-content-center"
-          data-scrollax-parent="true"
-        >
-          <div
-            class="col-md-6 text-center ftco-animate mb-3 mt-5"
-            data-scrollax=" properties: { translateY: '70%' }"
-          >
-            <h1
-              class="mb-3 mt-5 bread"
-              data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-            >
-              Contact<br />The Barber at BMG
-            </h1>
-            <p
-              class="breadcrumbs"
-              data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-            >
-              <span class="mr-2"><a href="index.html">Home</a></span>
-              <span>The Barber at BMG</span>
-              <div class="row align-items-center justify-content-center">
-                <div class="col-12 mb-3 mt-5">
-                  <p>
-                    <span>Address:<br></span>
-                    <a
-                      href="https://maps.apple.com/maps?q=972 S. Kirby Rd. Bloomington, Indiana"
-                      >972 S. Kirby Rd. Bloomington, Indiana</a
-                    >
-                  </p>
-                </div>
-                <div class="col-12 mb-3 mt-3">
-                  <p>
-                    <span>Phone: <br></span>
-                    <a href="tel:8123713380" class="ml-1">812-371-3380</a>
-                  </p>
-                </div>
-                <div class="col-12 mb-3 mt-3">
-                  <p
-                    data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-                  >
-                    <a
-                      href="https://haircut-w-katie.square.site/"
-                      class="btn btn-primary px-4 py-3  mb-3 mt-3"
-                      >Book an Appointment with Katie Price</a
-                    >
-                  </p>
-                  <p
-                    data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-                  >
-                    <a
-                      href="https://katies-booth.square.site/s/appointments"
-                      class="btn btn-primary px-4 py-3  mb-3 mt-3"
-                      >Book an Appointment with Katie Pearson</a
-                    >
-                  </p>
-                </div>
+        <div class="row">
+          <div class="col-md-6 p-3">
+            <div class="card bg-dark text-center p-3">
+              <img class="card-img-top" src="images/katie.jpg" alt="Card image cap" style="height: 100%; width: 100%;">
+              <div class="card-body">
+                <h5 class="card-title">Katie Price</h5>
+                <a
+                href="https://haircut-w-katie.square.site/"
+                class="btn btn-primary px-4 py-3"
+                >Book an Appointment with Katie Price</a
+              >
               </div>
-            </p>
+            </div>
+          </div>
+          <div class="col-md-6 p-3">
+            <div class="card bg-dark text-center p-3">
+              <img class="card-img-top" src="images/KatiePearson.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Katie Pearson</h5>
+                <a
+                href="https://katies-booth.square.site/s/appointments"
+                class="btn btn-primary px-4 py-3"
+                >Book an Appointment with Katie Pearson</a
+              >
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!--<div id="map"></div>-->
-
+    </section>
     <footer class="ftco-footer ftco-section img">
       <div class="overlay"></div>
       <div class="container">
